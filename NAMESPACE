@@ -4,6 +4,8 @@ import(methods)
 import(stats)
 
 export(dendrapply)
+export(`labels<-`)
 
 S3method(subset, 'dendrogram')
+S3method(`labels<-`, 'dendrogram')
 
