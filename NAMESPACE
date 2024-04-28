@@ -1,0 +1,9 @@
+useDynLib(dendutils)
+
+import(methods)
+import(stats)
+
+export(dendrapply)
+
+S3method(subset, 'dendrogram')
+

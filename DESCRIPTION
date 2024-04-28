@@ -1,0 +1,14 @@
+Package: dendutils
+Title: Utility Functions for Dendrogram Objects
+Version: 1.0.0
+Authors@R: 
+    person("Aidan", "Lakshman", email="AHL27@pitt.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9465-6785"))
+Description: Implements base functionality for dendrogram objects.
+Depends: R (>= 4.3.0)
+Imports: methods, utils, stats
+License: GPL-3
+Encoding: UTF-8
+ByteCompile: true
+NeedsCompilation: yes
+VignetteBuilder: knitr
